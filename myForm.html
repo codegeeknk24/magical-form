@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> My Form </title>
+</head>
+<body>
+
+    <!--Header-->
+    <h1> Welcome to Magical Form! </h1>
+
+    <br>
+    <p> Magical Form is not about who you are but about who you wish to be. Feel free to dream and be creative!
+    </p>
+
+    <hr>
+
+    <form> 
+    <h2> Let us begin...</h2>
+    <br>
+
+    <!-- Text input -->
+    <label for="name"> Name: </label>
+    <input type="text" id="name" name="name" required>
+
+    <br>
+    <br>
+     <!-- Number input -->
+     <label for="age"> Age: </label>
+     <input type="number" id="quantity" name="quantity" min="1" max="100">
+
+    <br>
+    <br>
+    <!--Text area-->
+    <label for="message"> Type of Unicorn </label>
+    <textarea id="message" name="message" rows="4" cols="50" placeholder="Describe your inner Unicorn" required> </textarea>
+
+    <br>
+    <br>
+    <!-- Dropdown menu-->
+    <label for="mood"> Your mood: </label>
+    <select id="mood" name="mood">
+        <option value="awesome"> awesome </option>
+        <option value="amazing"> amazing </option>
+    </select>
+    <br>
+    <br>
+    
+    <!-- Radio buttons-->
+    Choose where would you rather travel in a rocket?
+    <input type="radio" id="option1" name="options" value="option1">
+    <label for="option1"> Moon</label>
+    <input type="radio" id="option2" name="options" value="option2">
+    <label for="option2"> Mars </label>
+    <input type="radio" id="option3" name="options" value="option3">
+    <label for="option3"> Alternative Universe </label>
+    <input type="radio" id="option4" name="options" value="option4">
+    <label for="option4"> North Pole </label>
+
+    <br>
+    <br>
+    <!-- Checkboxes-->
+    Would you ask more blessings from Universe?
+    <input type="checkbox" id="check1" name="check1" value="check1">
+    <label for="check1"> Yes, give it to me! </label>
+    <input type="checkbox" id="check2" name="check2" value="check2">
+    <label for="check2"> No, thanks, I want to earn it myself. </label>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <button type="submit"> Submit </button>
+    <button disabled>Cancel</button>
+
+</form>
+</body>
+
+</html>
